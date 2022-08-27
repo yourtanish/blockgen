@@ -1,0 +1,20 @@
+{
+  "name": "blockgen",
+  "version": "0.0.1",
+  "description": "a blockchain generator",
+  "main": "main.js",
+  "dependencies": {
+    "keccak": "^3.0.1",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js",
+    "prettify": "prettier --write *.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blockchain"
+  ],
+  "license": "MIT"
+}
